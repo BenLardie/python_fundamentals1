@@ -11,5 +11,6 @@ while distance >= 0:
         print("distance from home is {}km".format(distance))
     elif travel_method == "go home":
         print("well get out of here")
+        break
     else:
         print("wrong input")
