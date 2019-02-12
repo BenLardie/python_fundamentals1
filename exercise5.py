@@ -4,8 +4,7 @@ energy = 10
 while distance >= 0:
     print("Would you like to walk or run?")
     travel_method = input()
-    if energy <= 0:
-        energy += 1
+    if energy <= 0 and travel_method != "eat":
         print("used up a lot of energy lets walk, eat or go home")
     elif travel_method == "walk":
         distance += 1
